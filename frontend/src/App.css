@@ -1,0 +1,15 @@
+/* Additional App-specific styles */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Emotion color mappings */
+.emotion-joy { color: #FFD700; }
+.emotion-sadness { color: #4169E1; }
+.emotion-anger { color: #DC143C; }
+.emotion-fear { color: #9370DB; }
+.emotion-surprise { color: #FF69B4; }
+.emotion-neutral { color: #A9A9A9; }
+.emotion-love { color: #FF1493; }
+
+

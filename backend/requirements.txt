@@ -1,0 +1,47 @@
+# Ghostnet Backend Requirements (Minimal for Mock Mode)
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+websockets==15.0.1
+
+# AI/ML Libraries (optional for mock mode)
+# numpy>=1.24.0
+# scipy>=1.11.0
+# torch==2.8.0  # Uncomment for real ML models
+# transformers==4.35.0  # Uncomment for real ML models
+
+# Audio processing (for voice emotion recognition)
+# librosa==0.10.1
+# soundfile==0.12.1
+# speechbrain==0.5.16
+
+# Computer vision (for face emotion recognition)
+# opencv-python==4.8.1
+# mediapipe==0.10.7
+# deepface==0.0.79
+# fer==22.5.1
+
+# Database (optional for mock mode)
+# motor>=3.3.2  # Async MongoDB driver
+# pymongo>=4.6.0
+
+# Utilities
+python-jose[cryptography]>=3.3.0  # JWT tokens
+passlib[bcrypt]>=1.7.4  # Password hashing
+python-dotenv>=1.0.0  # Environment variables
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+
+# CORS and middleware
+starlette==0.27.0
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1
+
+# Note: Some packages are commented out to reduce initial installation size
+# Uncomment them when implementing actual model inference
+# The mock implementations work without these dependencies
+
